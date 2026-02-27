@@ -10,5 +10,5 @@ Tutorial to run it.
 1. Get the model from the release section
 2. Get the 'run.py' file from the repo.
 3. Get PyTorch and the chess library for python.
-4. Now run the 'run.py' model.
+4. Now run the 'run.py' file.
 5. If it feels slow adjust the settings in the code.
