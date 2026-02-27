@@ -3,4 +3,5 @@ A homemade RL chess AI capable of playing chess with insanely good moves and acc
 
 ## Special Thanks
 • Google Colab- https://colab.research.google.com
+
 • Kaggle- https://kaggle.com
