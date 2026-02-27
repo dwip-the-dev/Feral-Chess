@@ -12,3 +12,8 @@ Tutorial to run it.
 3. Get PyTorch and the chess library for python.
 4. Now run the 'run.py' file.
 5. If it feels slow adjust the settings in the code.
+
+
+# Demo Gameplay
+
+Check out the demo.txt file.
