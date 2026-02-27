@@ -1,0 +1,722 @@
+Using device: cuda
+MCTS strength: 500 simulations
+
+🔍 Looking for 950 model in current directory...
+
+📂 Loading 950 model from: /content/model_iter_950.pt
+🔍 Detected: 40 blocks, 96 channels
+🎯 Initializing move encoder...
+✅ Move encoder ready: 4544 moves
+✅ 950 ready! (16.3M parameters)
+
+============================================================
+♜ YOU vs 950 ♞
+============================================================
+Enter UCI moves (e.g., 'e2e4')
+Special moves: 'O-O' (castling), 'e7e8q' (promotion)
+Commands: 'top' for analysis, 'quit' to exit
+============================================================
+
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+
+Your move > d2d4
+
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . P . . . .
+. . . . . . . .
+P P P . P P P P
+R N B Q K B N R
+
+🤖 950 thinking...
+🤖 950 plays: g8f6 (confidence: 1.000)
+
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . . P . . . .
+. . . . . . . .
+P P P . P P P P
+R N B Q K B N R
+
+Your move > c2c4
+
+r n b q k b . r
+p p p p p p p p
+. . . . . n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . . . .
+P P . . P P P P
+R N B Q K B N R
+
+🤖 950 thinking...
+🤖 950 plays: e7e6 (confidence: 1.000)
+
+r n b q k b . r
+p p p p . p p p
+. . . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . . . .
+P P . . P P P P
+R N B Q K B N R
+
+Your move > g1f3
+
+r n b q k b . r
+p p p p . p p p
+. . . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N . .
+P P . . P P P P
+R N B Q K B . R
+
+🤖 950 thinking...
+🤖 950 plays: b7b6 (confidence: 1.000)
+
+r n b q k b . r
+p . p p . p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N . .
+P P . . P P P P
+R N B Q K B . R
+
+Your move > g2g3
+
+r n b q k b . r
+p . p p . p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P . P
+R N B Q K B . R
+
+🤖 950 thinking...
+🤖 950 plays: c8b7 (confidence: 1.000)
+
+r n . q k b . r
+p b p p . p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P . P
+R N B Q K B . R
+
+Your move > f1g2
+
+r n . q k b . r
+p b p p . p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P B P
+R N B Q K . . R
+
+🤖 950 thinking...
+🤖 950 plays: f8e7 (confidence: 1.000)
+
+r n . q k . . r
+p b p p b p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P B P
+R N B Q K . . R
+
+Your move > 0-0
+
+r n . q k . . r
+p b p p b p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P B P
+R N B Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: e8g8 (confidence: 1.000)
+
+r n . q . r k .
+p b p p b p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P B P
+R N B Q . R K .
+
+Your move > Nc3
+❌ Invalid format! Use e2e4, O-O, e7e8q
+
+r n . q . r k .
+p b p p b p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . . . . N P .
+P P . . P P B P
+R N B Q . R K .
+
+Your move > b1c3
+
+r n . q . r k .
+p b p p b p p p
+. p . . p n . .
+. . . . . . . .
+. . P P . . . .
+. . N . . N P .
+P P . . P P B P
+R . B Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: f6e4 (confidence: 1.000)
+
+r n . q . r k .
+p b p p b p p p
+. p . . p . . .
+. . . . . . . .
+. . P P n . . .
+. . N . . N P .
+P P . . P P B P
+R . B Q . R K .
+
+Your move > c1d2
+
+r n . q . r k .
+p b p p b p p p
+. p . . p . . .
+. . . . . . . .
+. . P P n . . .
+. . N . . N P .
+P P . B P P B P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: f7f5 (confidence: 0.810)
+
+r n . q . r k .
+p b p p b . p p
+. p . . p . . .
+. . . . . p . .
+. . P P n . . .
+. . N . . N P .
+P P . B P P B P
+R . . Q . R K .
+
+Your move > f3e5
+
+r n . q . r k .
+p b p p b . p p
+. p . . p . . .
+. . . . N p . .
+. . P P n . . .
+. . N . . . P .
+P P . B P P B P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: b8c6 (confidence: 0.619)
+
+r . . q . r k .
+p b p p b . p p
+. p n . p . . .
+. . . . N p . .
+. . P P n . . .
+. . N . . . P .
+P P . B P P B P
+R . . Q . R K .
+
+Your move > c3e4
+
+r . . q . r k .
+p b p p b . p p
+. p n . p . . .
+. . . . N p . .
+. . P P N . . .
+. . . . . . P .
+P P . B P P B P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: f5e4 (confidence: 1.000)
+
+r . . q . r k .
+p b p p b . p p
+. p n . p . . .
+. . . . N . . .
+. . P P p . . .
+. . . . . . P .
+P P . B P P B P
+R . . Q . R K .
+
+Your move > g2e4
+
+r . . q . r k .
+p b p p b . p p
+. p n . p . . .
+. . . . N . . .
+. . P P B . . .
+. . . . . . P .
+P P . B P P . P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: e7f6 (confidence: 1.000)
+
+r . . q . r k .
+p b p p . . p p
+. p n . p b . .
+. . . . N . . .
+. . P P B . . .
+. . . . . . P .
+P P . B P P . P
+R . . Q . R K .
+
+Your move > d2c3
+
+r . . q . r k .
+p b p p . . p p
+. p n . p b . .
+. . . . N . . .
+. . P P B . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: f6e5 (confidence: 1.000)
+
+r . . q . r k .
+p b p p . . p p
+. p n . p . . .
+. . . . b . . .
+. . P P B . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+Your move > d4e5
+
+r . . q . r k .
+p b p p . . p p
+. p n . p . . .
+. . . . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: c6e7 (confidence: 0.988)
+
+r . . q . r k .
+p b p p n . p p
+. p . . p . . .
+. . . . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+Your move > e4b7
+
+r . . q . r k .
+p B p p n . p p
+. p . . p . . .
+. . . . P . . .
+. . P . . . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: a8b8 (confidence: 1.000)
+
+. r . q . r k .
+p B p p n . p p
+. p . . p . . .
+. . . . P . . .
+. . P . . . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+Your move > b7e4
+
+. r . q . r k .
+p . p p n . p p
+. p . . p . . .
+. . . . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+🤖 950 thinking...
+🤖 950 plays: c7c5 (confidence: 0.530)
+
+. r . q . r k .
+p . . p n . p p
+. p . . p . . .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+R . . Q . R K .
+
+Your move > d1d3
+
+. r . q . r k .
+p . . p n . p p
+. p . . p . . .
+. . p . P . . .
+. . P . B . . .
+. . B Q . . P .
+P P . . P P . P
+R . . . . R K .
+
+🤖 950 thinking...
+🤖 950 plays: b8c8 (confidence: 1.000)
+
+. . r q . r k .
+p . . p n . p p
+. p . . p . . .
+. . p . P . . .
+. . P . B . . .
+. . B Q . . P .
+P P . . P P . P
+R . . . . R K .
+
+Your move > a1d1
+
+. . r q . r k .
+p . . p n . p p
+. p . . p . . .
+. . p . P . . .
+. . P . B . . .
+. . B Q . . P .
+P P . . P P . P
+. . . R . R K .
+
+🤖 950 thinking...
+🤖 950 plays: g7g6 (confidence: 1.000)
+
+. . r q . r k .
+p . . p n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B Q . . P .
+P P . . P P . P
+. . . R . R K .
+
+Your move > d3d7
+
+. . r q . r k .
+p . . Q n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . R . R K .
+
+🤖 950 thinking...
+🤖 950 plays: d8d7 (confidence: 1.000)
+
+. . r . . r k .
+p . . q n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . R . R K .
+
+Your move > d1d7
+
+. . r . . r k .
+p . . R n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . . . R K .
+
+🤖 950 thinking...
+🤖 950 plays: f8e8 (confidence: 0.997)
+
+. . r . r . k .
+p . . R n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . . . R K .
+
+Your move > f1d1
+
+. . r . r . k .
+p . . R n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . R . . K .
+
+🤖 950 thinking...
+🤖 950 plays: e8f8 (confidence: 0.994)
+
+. . r . . r k .
+p . . R n . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . R . . K .
+
+Your move > d7e7
+
+. . r . . r k .
+p . . . R . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . R . . K .
+
+🤖 950 thinking...
+🤖 950 plays: c8d8 (confidence: 1.000)
+
+. . . r . r k .
+p . . . R . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . R . . K .
+
+Your move > d1d8
+
+. . . R . r k .
+p . . . R . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . . . . K .
+
+🤖 950 thinking...
+🤖 950 plays: f8d8 (confidence: 1.000)
+
+. . . r . . k .
+p . . . R . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P . P
+. . . . . . K .
+
+Your move > g1g2
+
+. . . r . . k .
+p . . . R . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: d8d7 (confidence: 0.999)
+
+. . . . . . k .
+p . . r R . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > e7d7
+
+. . . . . . k .
+p . . R . . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: g8f8 (confidence: 1.000)
+
+. . . . . k . .
+p . . R . . . p
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > d7h7
+
+. . . . . k . .
+p . . . . . . R
+. p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: a7a6 (confidence: 0.976)
+
+. . . . . k . .
+. . . . . . . R
+p p . . p . p .
+. . p . P . . .
+. . P . B . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > e4g6
+
+. . . . . k . .
+. . . . . . . R
+p p . . p . B .
+. . p . P . . .
+. . P . . . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: b6b5 (confidence: 1.000)
+
+. . . . . k . .
+. . . . . . . R
+p . . . p . B .
+. p p . P . . .
+. . P . . . . .
+. . B . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > c3a5
+
+. . . . . k . .
+. . . . . . . R
+p . . . p . B .
+B p p . P . . .
+. . P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: b5b4 (confidence: 1.000)
+
+. . . . . k . .
+. . . . . . . R
+p . . . p . B .
+B . p . P . . .
+. p P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > a5d8
+
+. . . B . k . .
+. . . . . . . R
+p . . . p . B .
+. . p . P . . .
+. p P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: a6a5 (confidence: 0.802)
+
+. . . B . k . .
+. . . . . . . R
+. . . . p . B .
+p . p . P . . .
+. p P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > d8f6
+
+. . . . . k . .
+. . . . . . . R
+. . . . p B B .
+p . p . P . . .
+. p P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🤖 950 thinking...
+🤖 950 plays: a5a4 (confidence: 0.999)
+
+. . . . . k . .
+. . . . . . . R
+. . . . p B B .
+. . p . P . . .
+p p P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+Your move > h7h8
+
+. . . . . k . R
+. . . . . . . .
+. . . . p B B .
+. . p . P . . .
+p p P . . . . .
+. . . . . . P .
+P P . . P P K P
+. . . . . . . .
+
+🏁 Game Over: 1-0
+Checkmate! You win! 🎉
+
+Play again? (y/n): n
